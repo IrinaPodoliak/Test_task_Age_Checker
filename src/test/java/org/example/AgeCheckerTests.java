@@ -10,7 +10,7 @@ import java.time.format.DateTimeParseException;
 
 import static org.example.resources.TextMessages.TestMessages.*;
 
-public class AgeCalculatorTests {
+public class AgeCheckerTests {
 
     @Test(dataProviderClass = TestDataProvider.class, dataProvider = "validBirthDates")
     public void testAgeCalculation(String birthDateInput, int expectedAge) {
