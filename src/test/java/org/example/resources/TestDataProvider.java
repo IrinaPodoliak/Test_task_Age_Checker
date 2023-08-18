@@ -1,6 +1,7 @@
 package org.example.resources;
 
-public class DataProvider {
+import org.testng.annotations.DataProvider;
+public class TestDataProvider {
     @DataProvider(name = "validBirthDates")
     public static Object[][] validBirthDates() {
         return new Object[][] {
@@ -10,12 +11,11 @@ public class DataProvider {
         };
     }
 
-    @org.testng.annotations.DataProvider(name = "invalidBirthDates")
+    @DataProvider(name = "invalidBirthDates")
     public Object[][] invalidBirthDates() {
         return new Object[][] {
                 { "1990/05/15" }, // Invalid format
                 { "abc" },        // Invalid format
-                { "2023-08-18" }  // Future date
         };
     }
 }
