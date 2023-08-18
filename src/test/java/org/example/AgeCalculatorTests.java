@@ -47,7 +47,6 @@ public class AgeCalculatorTests {
     @Test
     public void testFutureDate() {
         LocalDate futureBirthDate = LocalDate.now().plusDays(1);
-        System.out.println(futureBirthDate);
         String result = AgeCalculator.checkAge(futureBirthDate);
 
         Assert.assertEquals(result, FUTURE_DATE_MESSAGE);
