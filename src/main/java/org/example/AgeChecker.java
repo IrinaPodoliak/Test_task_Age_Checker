@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import static org.example.resources.TextMessages.TestMessages.*;
 
-public class AgeCalculator {
+public class AgeChecker {
     public static int calculateAge(LocalDate birthDate) {
         LocalDate currentDate = LocalDate.now();
         Period period = Period.between(birthDate, currentDate);
