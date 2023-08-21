@@ -7,5 +7,17 @@
  
 3) Результат выложить на GitHub
 
-Тестовое задание выполнено с использованием библиотек: Maven, TestNG
-Запуск тестов: mvn clean test
+
+Project Name - Age Checker Test
+Description
+This project contains automated tests for Google search functionality using Maven, TestNG and Java.
+
+Prerequisites
+Java Development Kit (JDK) 11 or higher
+Maven
+
+Getting Started
+Clone this repository to your local machine.
+Open a terminal or command prompt and run the following command to execute the tests:
+mvn clean test
+
