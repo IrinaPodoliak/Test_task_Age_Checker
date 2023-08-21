@@ -1,4 +1,4 @@
-# Test_task_Age_Calculator
+# Test_task_Age_Checker
 Используя: Java, Maven/Gradle, TestNG, нативный Selenium или Selenide
 
 1) Написать функцию, которая принимает на вход дату рождения (в любом удобном виде) и возвращает есть ли пользователю 18 лет
