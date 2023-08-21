@@ -1,4 +1,4 @@
-package org.example.resources;
+package org.example.util;
 
 public class TextMessages {
     public class TestMessages {

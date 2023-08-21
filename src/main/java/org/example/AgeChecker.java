@@ -5,7 +5,7 @@ import java.time.Period;
 import java.time.format.DateTimeParseException;
 import java.util.Scanner;
 
-import static org.example.resources.TextMessages.TestMessages.*;
+import static org.example.util.TextMessages.TestMessages.*;
 
 public class AgeChecker {
     public static int calculateAge(LocalDate birthDate) {
